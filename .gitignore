@@ -1,0 +1,19 @@
+# Ignore everything by default
+/*
+
+# Allow root documentation and config examples
+!/README.md
+!/env.example
+!/.env.example
+
+# Allow excerpts folder and everything inside it
+!/excerpts/
+!/excerpts/**
+
+# Allow video folder and only the video file directly in video/
+!/video/
+video/*
+!video/dzvendeur-explainer.mp4
+
+# Allow this .gitignore file itself
+!.gitignore

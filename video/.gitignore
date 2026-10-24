@@ -1,0 +1,6 @@
+node_modules/
+.remotion/
+*.log
+tmp/
+output/*.tmp*
+output/*-temp*
