@@ -255,9 +255,8 @@ DzVendeur is built and operated by a **solo founder & software engineer**:
 
 ## k. What Happens Next: 3-Month Plan
 
-- **Month 1**: Add native drivers for Microsoft SQL Server and PostgreSQL POS databases, and optimize mobile storefront asset loading for rural 3G/4G connections.
-- **Month 2**: Integrate direct delivery courier webhooks (Yalidine, Maystro, ZR Express) for automated shipping label generation and real-time parcel tracking from the merchant dashboard.
-- **Month 3**: Implement automated BaridiMob / CCP transfer reconciliation and launch an Android companion scanner app for physical barcode audits, expanding pilot merchant onboarding across five target commercial wilayas.
+- **Month 1**: Integrate direct delivery courier webhooks (Yalidine, Maystro, ZR Express) for automated shipping label generation and real-time parcel tracking from the merchant dashboard.
+- **Month 2-3**: Implement automated BaridiMob / CCP transfer reconciliation and launch an Android companion scanner app for physical barcode audits, expanding pilot merchant onboarding across five target commercial wilayas.
 
 ---
 
@@ -268,11 +267,9 @@ DzVendeur began as a personal project before the Thirduni programme (mid-2026) a
 ### Before the programme (until the end of August 2026)
 - Core multi-vendor e-commerce architecture on Next.js and PostgreSQL with trilingual localization (Arabic RTL default, French, English).
 - 58-Wilaya shipping pricing matrix (Home delivery vs. Stop-Desk pickup) and Cash on Delivery (COD) order checkout.
-- Multi-store shopping cart grouping, order splitting, and sub-account staff delegation with 13 granular permissions.
-- Standalone desktop POS synchronization agent (v2.0) with local database inspection (SQLite, MS Access, Firebird) and 1-click Windows wizard.
-- In-app live buyer-merchant messaging, PDF invoice generation, and architectural upgrade to Next.js 16 and React 19.
 
 ### During the programme (from September 2026)
+- Standalone desktop POS synchronization agent (v2.0) with local database inspection (SQLite, MS Access, Firebird) and 1-click Windows wizard.
 - Browser Web Push notifications (VAPID) and automated Telegram merchant alerts.
 - Post-order phone verification and modification workflow (`OrderModification`) with a 48-hour customer review window.
 - POS sync agent stability enhancements, merchant catalog quota limits, and database connection improvements.
